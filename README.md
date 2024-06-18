@@ -30,36 +30,3 @@
   <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="200" alt="coding animation" />
 </p>
 
-<style>
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  @keyframes bounceIn {
-    0% { transform: scale(0.5); opacity: 0; }
-    50% { transform: scale(1.05); opacity: 0.7; }
-    70% { transform: scale(0.9); opacity: 0.9; }
-    100% { transform: scale(1); opacity: 1; }
-  }
-  
-  body {
-    background-color: #0d1117;
-    color: #c9d1d9;
-    box-shadow: 0 0 20px rgb(0, 153, 255);
-    border-radius: 25px;
-    padding: 10px;
-  }
-  
-  a {
-    color: #58a6ff;
-  }
-  
-  .probox {
-    border-radius: 25px;
-    padding: 10px;
-    text-align: center;
-    background-color: #1f1f1f;
-    box-shadow: 0 0 20px rgba(0, 204, 255, 0.5); /* Cyan-blue shadow */
-  }
-</style>
